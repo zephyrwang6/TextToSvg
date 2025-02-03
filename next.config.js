@@ -10,13 +10,14 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "weijunext.com",
       "smartexcel.cc",
+      "texttosvg.cc",
     ],
   },
   async redirects() {
     return [
       {
         source: "/github",
-        destination: "https://github.com/weijunext/smart-excel-ai",
+        destination: "https://github.com/zephyrwang6/TextToSvg",
         permanent: false,
       },
     ];

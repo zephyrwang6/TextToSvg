@@ -93,7 +93,7 @@ export default function HomePage({
         style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
       >
         <a
-          href="https://x.com/weijunext/"
+          href="https://x.com/zephyr_kongge/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-blue-200 mb-5"
@@ -102,7 +102,7 @@ export default function HomePage({
           <p className="text-sm font-semibold">Follow Me</p>
         </a>
         <a
-          href="https://github.com/weijunext/smart-excel-ai"
+          href="https://github.com/zephyrwang6/TextToSvg"
           target="_blank"
           rel="noopener noreferrer"
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
@@ -116,14 +116,14 @@ export default function HomePage({
       </h1>
 
       <p className="text-slate-500 mt-5">
-        {formatNumber({ value: Number(usage) + currentUses })} Excel formulas
+        {formatNumber({ value: Number(usage) + currentUses })} SVG images
         generated so far.
       </p>
       <form className="max-w-xl w-full" onSubmit={onSubmit}>
         <div className="flex mt-10 items-center space-x-3">
           <Image src="/1-black.png" width={30} height={30} alt="1 icon" />
           <p className="text-left font-medium">
-            Describe what Excel formulas you would like.
+            Describe what SVG image you would like.
           </p>
         </div>
         <textarea
@@ -208,7 +208,7 @@ export default function HomePage({
                   }
                 </Link>
               ) : (
-                <span>Generate Excel formulas &rarr;</span>
+                <span>Generate SVG image &rarr;</span>
               )}
             </button>
           </>
@@ -234,7 +234,7 @@ export default function HomePage({
                 className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                 ref={answerRef}
               >
-                The formula you need
+                The image you need
               </h2>
             </div>
             <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">

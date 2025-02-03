@@ -17,11 +17,11 @@
 > 
 > 302.AI开源工具啦：https://github.com/302ai
 
-# [SmartExcel.cc](https://www.smartExcel.cc/)
+# [SmartSVG.cc](https://www.smartsvg.cc/)
 
-Generate the Excel formulas you need in seconds using AI.
+Generate SVG images you need in seconds using AI.
 
-[![Generate the Excel formulas](./public/screenshot.png)](https://www.smartExcel.cc/)
+[![Generate SVG images](./public/screenshot.png)](https://www.smartsvg.cc/)
 
 ## How it works
 
@@ -29,13 +29,13 @@ This project uses the [ChatGPT API](https://openai.com/api/) and the [Vercel AI 
 
 ## Stack 
 
-SmartExcel is built on the following stack:
+SmartSVG is built on the following stack:
 
 - Next.js – Frontend/Backend
 - TailwindCSS – Styles
 - Postgres and Prisma - database and storage([How to use?](https://weijunext.com/article/061d8cd9-fcf3-4d9e-bd33-e257bc4f9989))
 - Next-auth - Authentication([How to use?](https://weijunext.com/article/061d8cd9-fcf3-4d9e-bd33-e257bc4f9989)) 
-- ChatGPT - Generate the Excel formulas
+- ChatGPT - Generate SVG images
 - Upstash - Redis([How to use?](https://weijunext.com/article/6510121c-90da-4d20-85a1-72cbbdb3983b))
 - Lemon Squeezy - payments([How to use?](https://weijunext.com/article/integrate-lemonsqueezy-api))
 - Google Analytics - Analytics([How to use?](https://weijunext.com/article/979b9033-188c-4d88-bfff-6cf74d28420d))
@@ -65,7 +65,7 @@ pnpm run dev
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/smart-excel-ai&project-name=&repository-name=smart-excel-ai&demo-title=SmartExcel&demo-description=Generate%20the%20Excel%20formulas%20you%20need%20in%20seconds%20using%20AI.&demo-url=https://smartexcel.cc&demo-image=https://smartexcel.cc/opengraph-image.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/smart-svg-ai&project-name=&repository-name=smart-svg-ai&demo-title=SmartSVG&demo-description=Generate%20SVG%20images%20you%20need%20in%20seconds%20using%20AI.&demo-url=https://smartsvg.cc&demo-image=https://smartsvg.cc/opengraph-image.png)
 
 ## About Me
 
@@ -93,4 +93,4 @@ If this project is helpful to you, star the repo and buy be a coffee, thank you.
 
 ## Star History
 
-![Star History Chart](https://api.star-history.com/svg?repos=weijunext/smart-excel-ai&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=weijunext/smart-svg-ai&type=Date)

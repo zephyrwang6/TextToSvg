@@ -1,58 +1,29 @@
 import Link from "next/link";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
-
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
+import { Mail, Github, Twitter } from "lucide-react";
 
 const ContactMe = () => {
   return (
-    <div className="mx-auto flex flex-row items-center">
+    <div className="flex space-x-4">
       <Link
-        href="mailto:weijunext@gmail.com"
+        href="mailto:zephyrwang6@gmail.com"
         target="_blank"
-        rel="noopener norefferer nofollow"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
+        className="text-gray-400 hover:text-gray-500"
       >
-        <MdEmail className="text-lg" />
+        <Mail className="h-6 w-6" />
       </Link>
       <Link
-        href="https://github.com/weijunext"
+        href="https://github.com/zephyrwang6/TextToSvg"
         target="_blank"
-        rel="noopener norefferer nofollow"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
+        className="text-gray-400 hover:text-gray-500"
       >
-        <BsGithub className="text-lg" />
+        <Github className="h-6 w-6" />
       </Link>
       <Link
-        href="https://x.com/weijunext"
+        href="https://x.com/zephyr_kongge"
         target="_blank"
-        rel="noopener norefferer nofollow"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
+        className="text-gray-400 hover:text-gray-500"
       >
-        <BsTwitterX className="text-lg" />
-      </Link>
-      <Link
-        href="https://juejin.cn/user/26044008768029"
-        target="_blank"
-        rel="noopener norefferer nofollow"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
-      >
-        <SiJuejin className="text-lg" />
-      </Link>
-      <Link
-        href="https://weijunext.com/make-a-friend"
-        target="_blank"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
-      >
-        <BsWechat className="text-lg" />
-      </Link>
-      <Link
-        href="https://www.buymeacoffee.com/weijunext"
-        target="_blank"
-        rel="noopener norefferer nofollow"
-        className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
-      >
-        <SiBuymeacoffee className="text-lg" />
+        <Twitter className="h-6 w-6" />
       </Link>
     </div>
   );

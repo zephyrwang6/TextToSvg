@@ -1,20 +1,20 @@
 import { SiteConfig } from "@/types/siteConfig"
 
 const baseSiteConfig = {
-  name: "Smart Excel",
+  name: "Text To SVG",
   description:
-    "Generate the Excel formulas in seconds.",
-  url: "https://smartexcel.cc",
-  ogImage: "https://smartexcel.cc/og.jpg",
-  metadataBase: new URL("https://www.smartexcel.cc"),
-  keywords: ["SmartExcel", "ChatGPT", "Excel formulas", "Excel AI", "文心一言", "智谱"],
+    "Generate SVG image in seconds.",
+  url: "https://www.texttosvg.cc",
+  ogImage: "https://www.texttosvg.cc/og.jpg",
+  metadataBase: new URL("https://www.texttosvg.cc"),
+  keywords: ["Text To SVG", "ChatGPT", "SVG", "AI"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
+      name: "kongge_zephyr",
+      url: "https://x.com/zephyr_kongge",
     }
   ],
-  creator: '@weijunext',
+  creator: '@kongge_zephyr',
   themeColor: '#fff',
   icons: {
     icon: "/favicon.ico",
@@ -22,8 +22,8 @@ const baseSiteConfig = {
     apple: "/apple-touch-icon.png",
   },
   links: {
-    twitter: "https://x.com/weijunext",
-    github: "https://github.com/weijunext/smartexcel",
+    twitter: "https://x.com/zephyr_kongge",
+    github: "https://github.com/zephyrwang6/TextToSvg",
   },
 }
 
